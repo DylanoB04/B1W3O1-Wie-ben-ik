@@ -1,0 +1,224 @@
+body {
+	background-color: #7e7e7e;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#Wie {
+	padding-left: 25px;
+	font-size: 400%;
+	margin-top: 60px;
+	margin-bottom: 10px;
+
+}
+
+#Ik {
+	padding-left: 25px;
+	font-size: 200%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#Ontwikkelingspunten {
+	padding-left: 25px;
+	font-size: 400%;
+}
+
+#Opleiding {
+	padding-left: 25px;
+	font-size: 400%;
+	margin-bottom: 10px;
+	margin-top: 60px;
+}
+
+#SoftwareDev {
+	padding-left: 25px;
+	font-size: 200%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#Loket {
+	padding-left: 25px;
+	font-size: 200%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#Bijbaan_1 {
+	padding-left: 25px;
+	font-size: 200%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#Bijbaan_2 {
+	padding-left: 25px;
+	font-size: 200%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#Motivatie {
+	padding-left: 25px;
+	font-size: 400%;
+	margin-bottom: 10px;
+	margin-top: 60px;
+}
+
+#Motivatie2 {
+	padding-left: 25px;
+	font-size: 200%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*PAGINA 1*/
+
+.introductie {
+	height: 450px;
+	border: 3px solid black;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+
+.introductie img {
+	float:left;
+	margin: 0px 50px 25px 50px;
+	height: 400px;
+	border: 3px solid black;
+}
+
+.introductie #ik_p {
+	margin: 10px 50px 0px 0px;
+	font-size: 195%;
+	text-align: center;
+}
+
+.ontwikkeling {
+	height: 300px;
+	border: 3px solid black;
+	margin-bottom: 25px;
+}
+
+.ontwikkeling #punten {
+	font-size: 200%;
+	float: left;
+	margin-left: 25px;
+}
+
+/*PAGINA PAGINATION*/
+
+.paginas {
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+}
+
+.paginas a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.paginas a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.paginas a:hover:not(.active) {background-color: #ddd;}
+
+/*PAGINA 2*/
+
+.softwaredev {
+	height: 400px;
+	border: 3px solid black;
+	padding: 50px 25px 25px 25px;
+	margin-bottom: 50px;
+}
+
+.softwaredev #reden {
+	font-size: 170%;
+	text-align: center;
+}
+
+.vooropleiding {
+	height: 400px;
+	border: 3px solid black;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+
+.vooropleiding img {
+	float:left;
+	margin: 0px 25px 25px 25px;
+	height: 350px;
+	border: 3px solid black;
+}
+
+.vooropleiding #loket_p2 {
+	font-size: 170%;
+	text-align: center;
+}
+
+.vooropleiding #loket_p3 {
+	font-size: 170%;
+	text-align: center;
+	padding-right: 50px;
+}
+
+.bijbaan1 {
+	height: 450px;
+	border: 3px solid black;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+
+.bijbaan1 #Hema {
+	font-size: 170%;
+	text-align: center;
+}
+
+.bijbaan1 #vaardigheden1 {
+	font-size: 200%;
+	float: left;
+	margin-left: 25px;
+}
+
+.bijbaan2 {
+	height: 450px;
+	border: 3px solid black;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+
+.bijbaan2 #Stratenmaker {
+	font-size: 170%;
+	text-align: center;
+}
+
+.bijbaan2 #vaardigheden2 {
+	font-size: 200%;
+	float: left;
+	margin-left: 25px;
+}
+
+/*PAGINA 3*/
+
+.motivatie {
+	height: 400px;
+	border: 3px solid black;
+	padding: 50px 25px 25px 25px;
+	margin-bottom: 50px;
+}
+
+.motivatie #manier {
+	font-size: 170%;
+	text-align: center;
+}
+
+.motivatie #motivatiemanieren {
+	font-size: 200%;
+	float: left;
+	margin-left: 25px;
+}
